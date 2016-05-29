@@ -21,7 +21,6 @@
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
 	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
 	
 	<!--link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.1/bootstrap-material-design.css">
 	<link rel="stylesheet" href="css/ripple.css"-->
@@ -36,16 +35,14 @@
 	<script src="js/ui-bootstrap-tpls-0.9.0.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
 	<script src="js/v-accordion.js"></script>
-	 <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
 	
 
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true" type="text/javascript"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
 	
 	<script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.9.0/loading-bar.min.js'></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+	
 
 	
 	
@@ -53,18 +50,15 @@
 	<script src="js/controllers/main.js"></script>
     <script src="js/controllers/modal.js"></script>
 	<script src="js/services/locations.js"></script> 
+	<script src="js/services/users.js"></script>
 	<!--script src="js/material.js"></script>
     <script src="js/ripples.js"></script-->
-<script>
-  $( document ).ready(function(){
-   $(".button-collapse").sideNav();
-</script>
 
 </head>
 <body ng-controller="mainController">
 		
 		
-	<!--md-toolbar>
+	<md-toolbar>
       <div class="md-toolbar-tools default">
         <h2>
           <span><a href="/"> FoodyLiaisons</a></span>
@@ -80,36 +74,8 @@
           Contact Us
         </md-button>
       </div>
-    </md-toolbar-->
+    </md-toolbar>
 	
-	<nav>
-    <div class="nav-wrapper indigo darken-1">
-      <a ui-sref="home" class="brand-logo">FoodyLiaisons</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li>
-		<md-button aria-label="Home" ui-sref="home">
-          Home
-        </md-button>
-		</li>
-        <li>
-		<md-button aria-label="About" ui-sref="about">
-          About
-        </md-button>
-		</li>
-        <li>
-		<md-button aria-label="Contact" ui-sref="contact">
-          Contact Us
-        </md-button>
-		</li>
-      </ul>
-	  <ul class="side-nav" id="mobile-demo">
-        <li><a href="home">Home</a></li>
-        <li><a href="about">About</a></li>
-        <li><a href="contact">Contact Us</a></li>
-      </ul>
-    </div>
-  </nav>
 	
     <div class="">
 	

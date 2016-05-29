@@ -1,5 +1,5 @@
 html                    { overflow-y:scroll; overflow-x:scroll;}/*
-body                    { background-color:#fff;}
+body                    { background-color:#E6E6E6;}
 /*#yo                     { padding-top:70px; background: #10ABFD;}
 #todo-list              { padding-top:70px; margin-left:0px; margin-bottom:30px; background: #fff; }
 /*#blah                   {font-family: "Times New Roman", Georgia, Serif; font-size: 20px; width: 300px;}
@@ -15,6 +15,9 @@ md-button {
     display:block;
 }*/
 
+col-md-7 col-md-offset-2{
+	background: #E6E6E6;
+}
 
 #haha {
 	margin-top: 180px;
