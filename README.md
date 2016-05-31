@@ -4,6 +4,7 @@ Prototype for FoodyLiaisons
 Just download the code-
 
 ```javascript
-npm install
-node server.js
+->npm install
+
+->node server.js
 ```
