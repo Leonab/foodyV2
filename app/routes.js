@@ -3,6 +3,7 @@ var mongoose = require('mongoose'),
 	user = require('./models/user')();
 var Location = mongoose.model('Location');
 var User = mongoose.model('User');
+var sms = require('../public/js/send_sms');
 
 
 function getLocation(res){
@@ -80,10 +81,11 @@ app.post('/api/users', function(req, res) {
 			phone: phone,
 			perishable: perishable,
 			pick: pick
-        },*/ user.save(function(err, users) {
+        },*/ 
+		user.save(function(err) {
             if (err)
                 res.send(err);
-
+            
 
         });
 

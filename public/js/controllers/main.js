@@ -101,7 +101,7 @@ angular.module('locationController', ['ui.router'])
 		$scope.getLast = function() {
 			Users.getit()
 			.success(function(data){
-				console.log(data);
+				return res.json(data);
 			})
 		};
 			
@@ -134,6 +134,10 @@ angular.module('locationController', ['ui.router'])
 		.state('search', {
             url: '/search',
             templateUrl: 'views/display.html'   
+        })
+		.state('contact', {
+            url: '/contact',
+            templateUrl: 'views/contact.html'   
         })
 		.state('response', {
             url: '/response',
